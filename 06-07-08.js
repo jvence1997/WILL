@@ -35,6 +35,9 @@ function crearClasePersona() {
       // No debe retornar nada.
 
       // Tu código aca:
+      var nuevoHobb = hobby
+      this.hobbies.push(nuevoHobb)
+
 
     }
     getFriends() {
@@ -45,6 +48,10 @@ function crearClasePersona() {
       // persona.getFriends() debería devolver ['martin', 'toni']
 
       // Tu código aca:
+      const uno = (amigo => amigo.nombre);
+      const dos = this.amigos.map(uno);
+      return dos
+
 
     }
 
@@ -55,6 +62,7 @@ function crearClasePersona() {
 
       // Tu código aca:
 
+      return (this.hobbies)
     }
 
     getPromedioEdad() {
@@ -74,6 +82,7 @@ function crearClasePersona() {
 
       // Tu código aca:
 
+      
     }
   };
 
